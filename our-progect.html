@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Interno</title>
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<!-- header -->
+			<div class="header_box conteiner">
+				<div>
+					<img class="logo" src="./svg/Logo.svg" alt="logo" width="177" height="50" />
+				</div>
+				<nav>
+					<ul class="header_nav_list">
+						<li class="header_nav_items">
+							<a class="header_nav_link" href="./index.html">Home</a>
+						</li>
+						<li class="header_nav_items">
+							<a class="header_nav_link header_nav_link_active" href="#">Our Projects</a>
+						</li>
+						<li class="header_nav_items">
+							<a class="header_nav_link" href="./blog.html">Blog</a>
+						</li>
+						<li class="header_nav_items">
+							<a class="header_nav_link" href="./Contact-Us.html">Contact</a>
+						</li>
+						<li class="header_nav_items">
+							<button utton class="header_nav_items_search_button" onclick="openModal()">
+								<svg class="header_nav_link_img" width="21" height="21" viewbox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M16.6837 17.1844L21.9994 22.5001M19.375 10.6875C19.375 15.7616 15.2616 19.875 10.1875 19.875C5.11338 19.875 1 15.7616 1 10.6875C1 5.61338 5.11338 1.5 10.1875 1.5C15.2616 1.5 19.375 5.61338 19.375 10.6875Z"
+										stroke="correntColor"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+							</button>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- baner -->
+		<div class="main_baner">
+			<img class="main_baner_img" src="./png/baner-blog.png" alt="baner-photo" width="1920" height="356" />
+			<section class="baner_bread_crumbs_wrapper">
+				<h2 class="baner_title">Our Project</h2>
+				<ul class="baner_bread_crumbs_list">
+					<li>
+						<a class="baner_bread_crumbs_items" href="./index.html">Home</a>
+						<span class="baner_bread_crumbs_slash">/</span>
+					</li>
+					<li>
+						<a class="baner_bread_crumbs_items baner_bread_active" href="#">Project</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<!-- main section -->
+		<div class="page">
+			<div class="conteiner">
+				<!-- tabs block -->
+				<div class="tabs">
+					<button class="tab-link" type="button" onclick="openTab(event, 'tab1')">Bathroom</button>
+					<button class="tab-link" type="button" onclick="openTab(event, 'tab2')">Bed Room</button>
+					<button class="tab-link" type="button" onclick="openTab(event, 'tab3')">Kitchan</button>
+					<button class="tab-link" type="button" onclick="openTab(event, 'tab4')">Living Area</button>
+				</div>
+				<!-- tab content -->
+				<!-- tab 1 Bathroom -->
+				<div class="tab-content" id="tab1" style="display: block">
+					<div class="tab_content_box">
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Bathroom/1.jpg" alt="Bathroom-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Bathroom/2.jpg" alt="Bathroom-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Bathroom/3.jpg" alt="Bathroom-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Bathroom/4.jpg" alt="Bathroom-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Bathroom/5.jpg" alt="Bathroom-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Bathroom/6.jpg" alt="Bathroom-photo" width="585" height="522">
+						</div>
+					</div>
+				</div>
+				<!--tab 2 Bed Room -->
+				<div class="tab-content" id="tab2">
+					<div class="tab_content_box">
+						<img  src="./png/progect/badroom/Image1.png" alt="badroom-photo" width="585" height="522" />
+						<img  src="./png/progect/badroom/02.png" alt="badroom-photo" width="585" height="522" />
+						<img  src="./png/progect/badroom/03.png" alt="badroom-photo" width="585" height="522" />
+						<img  src="./png/progect/badroom/04.png" alt="badroom-photo" width="585" height="522" />
+						<img  src="./png/progect/badroom/05.png" alt="badroom-photo" width="585" height="522" />
+						<img  src="./png/progect/badroom/06.png" alt="badroom-photo" width="585" height="522" />
+					</div>
+				</div>
+				<!-- tab 3 Kitchan -->
+				<div class="tab-content" id="tab3">
+					<div class="tab_content_box">
+						<img src="./png/progect/Kitchan/1.png" alt="Kitchan-photo" width="585" height="522">
+						<img src="./png/progect/Kitchan/2.png" alt="Kitchan-photo" width="585" height="522">
+						<img src="./png/progect/Kitchan/3.png" alt="Kitchan-photo" width="585" height="522">
+						<img src="./png/progect/Kitchan/4.png" alt="Kitchan-photo" width="585" height="522">
+						<img src="./png/progect/Kitchan/5.png" alt="Kitchan-photo" width="585" height="522">
+						<img src="./png/progect/Kitchan/6.png" alt="Kitchan-photo" width="585" height="522">
+					</div>
+				</div>
+				<!-- tab 4  Living Area -->
+				<div class="tab-content" id="tab4">
+					<div class="tab_content_box">
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Living Area/1.jpg" alt="Living-Area-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Living Area/2.jpg" alt="Living-Area-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Living Area/3.jpg" alt="Living-Area-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Living Area/4.jpg" alt="Living-Area-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Living Area/5.jpg" alt="Living-Area-photo" width="585" height="522">
+						</div>
+						<div class="tab_content_wrapper">
+							<img class=".tab_content_img1" src="./png/progect/Living Area/6.jpg" alt="" width="585" height="522">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer>
+			<div class="footer_box conteiner">
+				<div>
+					<img class="logo" src="./svg/Logo.svg" alt="logo" width="177" height="50" />
+				</div>
+				<address class="footer_address">
+					55 East Birchwood Ave. <br />
+					Brooklyn, New York 11201
+				</address>
+				<a class="footer_mail" href="mailto:contact@interno.com">contact@interno.com</a>
+				<a class="footer_tel" href="tel:(123) 456 - 7890">(123) 456 - 7890</a>
+			</div>
+		</footer>
+		<div class="overlay" id="overlay">
+			<div class="overlay_madal_cearch">
+				<div class="conteiner">
+					<form action="" class="overlay_madal_cearch_form">
+						<label for="overlay_madal_cearch_input" class="overlay_madal_cearch_label">Search</label>
+						<input class="overlay_madal_cearch_input" type="text" id="overlay_madal_cearch_input" placeholder="" />
+						<button class="overlay_madal_cearch_submit" type="submit"></button>
+						<button class="overlay_madal_cearch_closed" onclick="closeModal()"></button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- script -->
+		<script src="./script/swiper-bundle.min.js"></script>
+		<script src="./script/skript.js"></script>
+	</body>
+</html>

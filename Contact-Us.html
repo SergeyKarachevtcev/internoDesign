@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interno</title>
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <!-- header -->
+            <div class="header_box conteiner">
+                <div>
+                    <img class="logo" src="./svg/Logo.svg" alt="logo" width="177" height="50" />
+                </div>
+                <nav>
+                    <ul class="header_nav_list">
+                        <li class="header_nav_items">
+                            <a class="header_nav_link" href="./index.html">Home</a>
+                        </li>
+                        <li class="header_nav_items">
+                            <a class="header_nav_link" href="./our-progect.html">Our Projects</a>
+                        </li>
+                        <li class="header_nav_items">
+                            <a class="header_nav_link" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="header_nav_items">
+                            <a class="header_nav_link header_nav_link_active" href="#">Contact</a>
+                        </li>
+                        <li class="header_nav_items">
+                            <button utton class="header_nav_items_search_button" onclick="openModal()">
+                                <svg class="header_nav_link_img" width="21" height="21" viewbox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.6837 17.1844L21.9994 22.5001M19.375 10.6875C19.375 15.7616 15.2616 19.875 10.1875 19.875C5.11338 19.875 1 15.7616 1 10.6875C1 5.61338 5.11338 1.5 10.1875 1.5C15.2616 1.5 19.375 5.61338 19.375 10.6875Z"
+                                        stroke="correntColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- baner -->
+        <div class="main_baner">
+            <img class="main_baner_img" src="./png/baner-blog.png" alt="baner-photo" width="1920" height="356" />
+            <section class="baner_bread_crumbs_wrapper">
+                <h2 class="baner_title">Contact Us</h2>
+                <ul class="baner_bread_crumbs_list">
+                    <li>
+                        <a class="baner_bread_crumbs_items" href="./index.html">Home</a>
+                        <span class="baner_bread_crumbs_slash">/</span>
+                    </li>
+                    <li>
+                        <a class="baner_bread_crumbs_items baner_bread_active" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <!-- main section -->
+        <div class="conteiner">
+            <div class="contacts_box">
+                <h2 class="main_blog_post_title contacts_title">We love meeting new people and helping them.</h2>
+                <div class="cotacts_form_wrapper">
+                    <!-- social section -->
+                    <div class="social_wrapper">
+                        <div class="social_section">
+                            <div class="social_img">
+                                <img src="./svg/social/mail.svg" alt="mail-icon" width="22" height="17" />
+                            </div>
+                            <a class="social_link" href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                        </div>
+                        <div class="social_section">
+                            <div class="social_img">
+                                <img src="./svg/social/phone.svg" alt="phone-icon" width="21" height="21" />
+                            </div>
+                            <a href="tel:+1(378)400-1234" class="social_link">+1 (378) 400-1234 </a>
+                        </div>
+                        <div class="social_section">
+                            <div class="social_img">
+                                <img src="./svg/social/earth.svg" alt="all-earth-icon" width="21" height="21" />
+                            </div>
+                            <a href="www.yourdomain.com" class="social_link">www.yourdomain.com </a>
+                        </div>
+                        <div class="Social_Icon">
+                            <img class="main_blog_social_img" src="./svg/social/facebock.svg" alt="facebock" width="12" height="22" />
+                            <img class="main_blog_social_img" src="./svg/social/twitter.svg" alt="twitter" width="18" height="22" />
+                            <img class="main_blog_social_img" src="./svg/social/in.svg" alt="in" width="16" height="22" />
+                            <img class="main_blog_social_img" src="./svg/social/inst.svg" alt="instagram" width="17" height="23" />
+                        </div>
+                    </div>
+                    <!-- form -->
+                    <form class="contacts_form" action="https://echo.htmlacademy.ru/" method="post">
+                        <p class="blog_form_wrapper">
+                            <input type="text" class="form_input" id="name" placeholder="Name" name="Name" />
+                            <input type="email" class="form_input" id="email" placeholder="Email" name="Email" />
+                        </p>
+                        <p class="blog_form_wrapper">
+                            <input type="text" class="form_input" id="website" placeholder="Website" name="Website" />
+                            <input type="tel" class="form_input" id="phone" placeholder="Phone" name="Phone" />
+                        </p>
+                        <div class="communication_form_notes_wrapper">
+                            <label class="communication_form_label" for="note">Hello Iam Intrested in..</label>
+                            <input type="text" class="communication_form_note" id="note" name="Note" />
+                        </div>
+                        <button class="button communication_form_button contacts_button">
+                            <span class="button_text">Send Now</span>
+                            <img src="./svg/Vector-arrow-big.svg" alt="стрелка в лево" />
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer_box conteiner">
+                <div>
+                    <img class="logo" src="./svg/Logo.svg" alt="logo" width="177" height="50" />
+                </div>
+                <address class="footer_address">
+                    55 East Birchwood Ave. <br />
+                    Brooklyn, New York 11201
+                </address>
+                <a class="footer_mail" href="mailto:contact@interno.com">contact@interno.com</a>
+                <a class="footer_tel" href="tel:(123) 456 - 7890">(123) 456 - 7890</a>
+            </div>
+        </footer>
+        <div class="overlay" id="overlay">
+            <div class="overlay_madal_cearch">
+                <div class="conteiner">
+                    <form action="" class="overlay_madal_cearch_form">
+                        <label for="overlay_madal_cearch_input" class="overlay_madal_cearch_label">Search</label>
+                        <input class="overlay_madal_cearch_input" type="text" id="overlay_madal_cearch_input" placeholder="" />
+                        <button class="overlay_madal_cearch_submit" type="submit"></button>
+                        <button class="overlay_madal_cearch_closed" onclick="closeModal()"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- script -->
+        <script src="./script/swiper-bundle.min.js"></script>
+        <script src="./script/skript.js"></script>
+    </body>
+</html>

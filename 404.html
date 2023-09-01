@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Interno</title>
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<!-- header -->
+			<div class="header_box conteiner">
+				<div>
+					<img class="logo" src="./svg/Logo.svg" alt="logo" width="177" height="50" />
+				</div>
+				<nav>
+					<ul class="header_nav_list">
+						<li class="header_nav_items">
+							<a class="header_nav_link header_nav_link_active" href="#">Home</a>
+						</li>
+						<li class="header_nav_items">
+							<a class="header_nav_link" href="./our-progect.html">Our Projects</a>
+						</li>
+						<li class="header_nav_items">
+							<a class="header_nav_link" href="./blog.html">Blog</a>
+						</li>
+						<li class="header_nav_items">
+							<a class="header_nav_link" href="./Contact-Us.html">Contact</a>
+						</li>
+						<li class="header_nav_items">
+							<button utton class="header_nav_items_search_button" onclick="openModal()">
+								<svg class="header_nav_link_img" width="21" height="21" viewbox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M16.6837 17.1844L21.9994 22.5001M19.375 10.6875C19.375 15.7616 15.2616 19.875 10.1875 19.875C5.11338 19.875 1 15.7616 1 10.6875C1 5.61338 5.11338 1.5 10.1875 1.5C15.2616 1.5 19.375 5.61338 19.375 10.6875Z"
+										stroke="correntColor"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+							</button>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- main block -->
+
+		<div class="error_section">
+			<div class="conteiner">
+				<h1 class="error_title">404</h1>
+				<p class="error_text">We are sorry, but the page you requested was not found</p>
+				<a class="button_link" href="./index.html">
+					<button class="button">
+						<span class="button_text">Back To Home</span>
+						<img src="./svg/Vector-arrow-big.svg" alt="стрелка в лево" />
+					</button>
+				</a>
+			</div>
+			<div class="error_box">
+				<div class="error_img_wrapper">
+					<img class="error_img" src="./png/error-photo.png" alt="фото ремонта" />
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer>
+			<div class="footer_box conteiner">
+				<div>
+					<img class="logo" src="./svg/Logo.svg" alt="logo" width="177" height="50" />
+				</div>
+				<address class="footer_address">
+					55 East Birchwood Ave. <br />
+					Brooklyn, New York 11201
+				</address>
+				<a class="footer_mail" href="mailto:contact@interno.com">contact@interno.com</a>
+				<a class="footer_tel" href="tel:(123) 456 - 7890">(123) 456 - 7890</a>
+			</div>
+		</footer>
+		<div class="overlay" id="overlay">
+			<div class="overlay_madal_cearch">
+				<div class="conteiner">
+					<form action="" class="overlay_madal_cearch_form">
+						<label for="overlay_madal_cearch_input" class="overlay_madal_cearch_label">Search</label>
+						<input class="overlay_madal_cearch_input" type="text" id="overlay_madal_cearch_input" placeholder="" />
+						<button class="overlay_madal_cearch_submit" type="submit"></button>
+						<button class="overlay_madal_cearch_closed" onclick="closeModal()"></button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- script -->
+		<script src="./script/swiper-bundle.min.js"></script>
+		<script src="./script/skript.js"></script>
+	</body>
+</html>
